@@ -5,6 +5,21 @@
 /* ---------font style end--------- */
 
 /* ---------common style start--------- */
+.main-nav {
+	display: flex;
+	justify-content: space-around;
+	gap: 250px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.left-nav span,
+.right-nav a {
+	color: #3a3a3a;
+}
+
+/* ---------font style end--------- */
+
+/* ---------common style start--------- */
 body {
 	font-family: "Poppins", sans-serif;
 }
@@ -12,6 +27,8 @@ a {
 	text-decoration: none;
 	color: whitesmoke;
 	font-size: 16px;
+	padding: 5px 10px;
+	font-weight: 600;
 }
 /* ---------common style end--------- */
 /* ---------blogs style start--------- */
@@ -19,7 +36,6 @@ a {
 .blogs {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
 	margin: 50px 0;
 }
 .blog-details {
@@ -46,7 +62,7 @@ a {
 }
 .visit-link {
 	border-radius: 30px;
-	padding: 5px 10px;
+	background: #e02c6d;
 }
 /* ---------blogs style end--------- */
 
@@ -56,23 +72,128 @@ a {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	padding: 15px;
 }
 .shoping-site {
 	margin: auto;
 	width: 1110px;
 	height: 110px;
 }
+hr {
+	background: linear-gradient(
+		90deg,
+		rgba(192, 204, 218, 0.1) 0%,
+		rgba(192, 204, 218, 0.6) 50.38%,
+		rgba(192, 204, 218, 0.1) 100%
+	);
+	opacity: 0.2;
+}
 
 /* ---------shoping style end--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
-/* ---------blogs style start--------- */
+
+/* ---------product-banner style start--------- */
+
+.product-banner {
+	width: 1047px;
+	height: 1662px;
+	margin: auto;
+}
+.product-banner h2 {
+	color: #3a3a3a;
+}
+.thambnails {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	margin: 10px 0px;
+	gap: 30px;
+}
+.product-details {
+	width: 305px;
+	height: 477px;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	padding: 15px;
+}
+.product {
+	width: 300px;
+	height: 256px;
+}
+.section-title {
+	width: 230px;
+	height: 62px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.thambnails h3 {
+	color: rgba(0, 0, 0, 0.87);
+	font-weight: 400;
+	font-size: 24px;
+}
+.thambnails p,
+span {
+	color: #787885;
+	font-weight: 700;
+}
+.retting {
+	color: #fb8200;
+	font-size: 14px;
+}
+.see-more-button a {
+	color: #e02c6d;
+	position: relative;
+	left: 92%;
+}
+/* ---------product-banner style end--------- */
+
+/* ---------last blog style start--------- */
+
+.last-blogs {
+	width: 1110px;
+	height: 270px;
+	margin: auto;
+}
+.container {
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+}
+.blog-photo {
+	width: 100%;
+}
+.join-button {
+	background-color: #e02c6d;
+}
+.blog-artical h2 {
+	color: black;
+	font-weight: 700;
+	font-size: 38px;
+}
+.blog-artical p {
+	font-weight: 600;
+	font-size: 16px;
+}
+/* ---------last blog style end --------- */
+
+/* ---------footer style start--------- */
+footer {
+	background-color: gray;
+	margin-top: 100px;
+	color: whitesmoke;
+	text-align: center;
+	padding: 15px 0;
+	line-height: 11px;
+}
+footer p {
+	font-size: 14px;
+}
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter {
+	color: rgb(17, 81, 177);
+}
+.fa-youtube {
+	color: rgb(242, 9, 9);
+}
+/* ---------footer style end--------- */

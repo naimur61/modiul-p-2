@@ -1,0 +1,78 @@
+/* ---------font style start--------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Josefin+Sans&family=Patua+One&family=Poppins:wght@500&display=swap");
+
+/* ---------font style end--------- */
+
+/* ---------common style start--------- */
+body {
+	font-family: "Poppins", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 16px;
+}
+/* ---------common style end--------- */
+/* ---------blogs style start--------- */
+
+.blogs {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 50px 0;
+}
+.blog-details {
+	width: 582px;
+	height: 270px;
+	font-weight: 700;
+	color: #3a3a3a;
+}
+.blog-details h1 {
+	font-weight: 700;
+	font-size: 52px;
+	font-style: normal;
+}
+.blog-details p {
+	font-weight: 600;
+	font-size: 16px;
+}
+.picture {
+	width: 440px;
+	height: 440px;
+	background-image: url(images/Circle\ design.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.visit-link {
+	border-radius: 30px;
+	padding: 5px 10px;
+}
+/* ---------blogs style end--------- */
+
+/* ---------shoping style start--------- */
+
+.sites {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.shoping-site {
+	margin: auto;
+	width: 1110px;
+	height: 110px;
+}
+
+/* ---------shoping style end--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */
+/* ---------blogs style start--------- */

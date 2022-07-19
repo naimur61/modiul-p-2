@@ -105,8 +105,8 @@ hr {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	justify-items: center;
-	margin: 10px 0px;
 	gap: 30px;
+	margin-top: 40px;
 }
 .product-details {
 	width: 305px;
@@ -140,10 +140,10 @@ span {
 	color: #fb8200;
 	font-size: 14px;
 }
-.see-more-button a {
+#see-more-button {
 	color: #e02c6d;
 	position: relative;
-	left: 92%;
+	left: 746%;
 }
 /* ---------product-banner style end--------- */
 
@@ -155,10 +155,12 @@ span {
 	margin: auto;
 }
 .container {
-	display: flex;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	margin-top: 100px;
+	align-items: end;
 }
+
 .blog-photo {
 	width: 100%;
 }
@@ -168,11 +170,17 @@ span {
 .blog-artical h2 {
 	color: black;
 	font-weight: 700;
-	font-size: 38px;
+	font-size: 45px;
+	/* line-height: 56px; */
+	margin: 0px;
+}
+.blog-artical {
+	width: 600px;
 }
 .blog-artical p {
 	font-weight: 600;
 	font-size: 16px;
+	line-height: 30px;
 }
 /* ---------last blog style end --------- */
 
@@ -197,3 +205,30 @@ footer p {
 	color: rgb(242, 9, 9);
 }
 /* ---------footer style end--------- */
+
+/* ---------Media Query--------- */
+/* ---------Mobail Size start--------- */
+
+@media screen and (max-width: 676px) {
+	.blogs {
+		flex-direction: column-reverse;
+	}
+	.sites {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		row-gap: 20px;
+	}
+	.thambnails,
+	.container {
+		grid-template-columns: repeat(1, 1fr);
+		width: 100%;
+		margin: 0%;
+	}
+	#see-more-button {
+		left: 0%;
+	}
+
+
+}
+
+/* ---------Mobail Size end--------- */

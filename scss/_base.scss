@@ -1,0 +1,47 @@
+/* base css */
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Josefin+Sans&family=Patua+One&family=Poppins:wght@500&display=swap");
+
+:root {
+	--primary: #e02c6d;
+	--black: #0a0826;
+	--gray: #6c6c6c;
+	--light-black: #3a3a3a;
+}
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	color: var(--light-black);
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 28px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0;
+}
+h1 {
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 7rem;
+}
+h2 {
+	font-weight: 700;
+	font-size: 3.8rem;
+	line-height: 6rem;
+	color: var(--black);
+}

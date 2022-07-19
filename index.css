@@ -1,0 +1,138 @@
+/* base css */
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Josefin+Sans&family=Patua+One&family=Poppins:wght@500&display=swap");
+:root {
+  --primary: #e02c6d;
+  --black: #0a0826;
+  --gray: #6c6c6c;
+  --light-black: #3a3a3a;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--light-black);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 7rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 6rem;
+  color: var(--black);
+}
+
+/* common css */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 0;
+    max-width: 98%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.btn {
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1rem 3.6rem;
+}
+
+.rounded-pill {
+  border-radius: 4rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+/* spaching  */
+.mt-150 {
+  margin-top: 15rem;
+}
+
+/* blog css */
+.blog__details .visit-link {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .blog__containt {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    text-align: center;
+  }
+}
+.blog__thamb {
+  background-image: url(/images/Circle\ design.svg);
+}
+
+/* fearured css */
+@media screen and (max-width: 600px) {
+  .featured__content {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+}
+.featured__artical {
+  padding-left: 10rem;
+}
+.featured__artical p {
+  margin-top: 2rem;
+}
+.featured__artical .join-button {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .featured__artical {
+    padding-left: 0;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

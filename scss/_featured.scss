@@ -1,0 +1,21 @@
+/* fearured css */
+.featured {
+	&__content {
+		@media screen and (max-width: 600px) {
+			flex-direction: column-reverse;
+			gap: 5rem;
+		}
+	}
+	&__artical {
+		padding-left: 10rem;
+		p {
+			margin-top: 2rem;
+		}
+		.join-button {
+			margin-top: 2rem;
+		}
+		@media screen and (max-width: 600px) {
+			padding-left: 0;
+		}
+	}
+}

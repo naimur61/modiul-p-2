@@ -1,0 +1,38 @@
+/* common css */
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	@media screen and (max-width: 600px) {
+		padding-left: 0;
+		max-width: 98%;
+	}
+}
+.text-center {
+	text-align: center;
+}
+.d-flex {
+	display: flex;
+}
+.align-item-center {
+	align-items: center;
+}
+.btn {
+	background: var(--primary);
+	color: white;
+	font-weight: 700;
+	font-size: 1.6rem;
+	padding: 1rem 3.6rem;
+}
+.rounded-pill{
+	border-radius: 4rem;
+}
+.bold {
+	font-weight: 700;
+}
+.text-gray {
+	color: var(--gray);
+}
+/* spaching  */
+.mt-150 {
+	margin-top: 15rem;
+}

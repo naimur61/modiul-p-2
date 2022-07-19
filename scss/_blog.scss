@@ -1,0 +1,19 @@
+/* blog css */
+.blog {
+	&__details {
+		.visit-link {
+			margin-top: 2rem;
+		}
+	}
+
+	&__containt {
+		@media screen and (max-width: 600px) {
+			flex-direction: column-reverse;
+			gap: 5rem;
+			text-align: center;
+		}
+	}
+	&__thamb {
+		background-image: url(/images/Circle\ design.svg);
+	}
+}

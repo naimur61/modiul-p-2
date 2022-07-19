@@ -155,14 +155,11 @@ span {
 	margin: auto;
 }
 .container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin-top: 100px;
-	align-items: end;
+	display: flex;
+	margin-top: 150px;
 }
 
 .blog-photo {
-	width: 100%;
 }
 .join-button {
 	background-color: #e02c6d;
@@ -171,11 +168,10 @@ span {
 	color: black;
 	font-weight: 700;
 	font-size: 45px;
-	/* line-height: 56px; */
 	margin: 0px;
 }
 .blog-artical {
-	width: 600px;
+	padding-left: 100px;
 }
 .blog-artical p {
 	font-weight: 600;
@@ -218,17 +214,35 @@ footer p {
 		grid-template-columns: repeat(4, 1fr);
 		row-gap: 20px;
 	}
-	.thambnails,
-	.container {
+	.thambnails {
 		grid-template-columns: repeat(1, 1fr);
 		width: 100%;
 		margin: 0%;
 	}
+	.container {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+		gap: 30px;
+	}
+	.last-blogs {
+		width: 100%;
+		margin: 0;
+	}
+	.blog-artical {
+		padding-left: 0;
+	}
+	.blog-artical p{margin: 30px 0;}
 	#see-more-button {
 		left: 0%;
 	}
-
-
 }
 
 /* ---------Mobail Size end--------- */
+
+.headers,
+.shoping-site,
+.product-banner,
+footer {
+	display: none;
+}
